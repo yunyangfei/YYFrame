@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  YYFrame
+//
+//  Created by admin on 2017/8/23.
+//  Copyright © 2017年 admin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+//#import <WSProgressHUD.h>
+#import "WSProgressHUD.h"
+
+
+// 物理屏幕高度和宽度
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//主题色
+#define kColor [UIColor colorWithRed:217/255.0 green:73/255.0 blue:75/255.0 alpha:1.0]
+//灰色
+#define kGrayColor [UIColor colorWithRed:57/255.0 green:57/255.0 blue:57/255.0 alpha:1]
+//RGB颜色
+#define kRGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+
+
+#endif /* PrefixHeader_pch */
